@@ -44,8 +44,6 @@ function generateSentence(person, beverage, location) {
   return person + " was drinking " + beverage + " at " + location + ".";
 }
 
-
-
 // Return the given string with all vowels replced with '*' characters.
 // Ex.:
 //   censorVowels('javascript');
@@ -63,36 +61,12 @@ return newstring;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Return the given string in sticky case.
 // Ex.:
 //   stickyCase('hello world');
 //   => 'hElLo wOrLd'
 function stickyCase(string) {
-
-
-
 }
-
-
-
-
-
-
-
-
 
 
 // Return the given string in leetspeak. Leetspeak is a modified version of
@@ -110,7 +84,7 @@ function stickyCase(string) {
 function leetspeak(string) {
 
 
-  
+
 }
 
 export {

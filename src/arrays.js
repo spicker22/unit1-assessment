@@ -12,9 +12,6 @@ function greaterThanTen(numbers) {
   return bigNums
 }
 
-
-
-
 // Given an array of strings, return all words that start with 'b' or 'B'.
 // Ex.:
 //   bWords(['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear']);
@@ -28,10 +25,6 @@ function bWords(words) {
   }
   return bWord ;
 }
-
-
-
-
 
 // Add all the elements from additionalItems to the end of originalArray.
 // Return the originalArray..
@@ -47,10 +40,7 @@ function extend(originalArray, additionalItems) {
     finalArray.push(additionalItems[i]);
   }
   return finalArray;
-
 }
-
-
 
 // Return an array of all items with the given length.
 // Ex.:
@@ -66,11 +56,6 @@ function itemsWithLength(items, length) {
   return finalArray;
 }
 
-
-
-
-
-
 // Return an array with every other element from the input array (start with index 0).
 // Ex.:
 //   everyOtherItem(['a', 'b', 'c', 'd', 'e']);
@@ -82,14 +67,6 @@ function everyOtherItem(items) {
   }
   return finalArray;
 }
-
-
-
-
-
-
-
-
 
 // Given a list of words and a letter, return the indexes of the words that
 // start with that letter. You can assume that the words and letter will always
@@ -110,20 +87,10 @@ function findWordsStartingWith(words, letter) {
      finalArray.push(words[i][0]);
     ...
   }
-
   return finalArray;
 }
 console.log(findWordsStartingWith(words, letter));
 // end of this problem
-
-
-
-
-
-
-
-
-
 
 
 // Return the `n` smallest values in the array in descending order (largest
@@ -145,11 +112,6 @@ return Finalarray;
 }
 
 
-
-
-
-
-
 // Search for a value in the array and return its index. If the value appears
 // more than once, return the index of the *FIRST* occurrence of the value. If
 // the value doesn't exist in the array, return undefined.
@@ -167,25 +129,18 @@ function findIndex(items, value) {
 }
 
 
-
-
-
-
-
-
-
-
 // Given a start number and stop number, return a new array containing all the numbers
 // between the start and stop number.
 // Ex.:
 //   range(1, 5);
 //   => [1, 2, 3, 4, 5]
-function range(start, stop) {}
-
-
-
-
-
+function range(start, stop) {
+  let newArray = [];
+  for (let i = start; i <= stop; i++) {
+    newArray.push(i);
+  }
+  return newArray;
+  }
 
 
 
