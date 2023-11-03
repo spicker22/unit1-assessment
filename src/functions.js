@@ -2,7 +2,14 @@
 // Ex.:
 //   divide(10, 2);
 //   => 5
-function divide(x, y) {}
+function divide(x, y) {
+  quotient = x/y;
+  return quotient;
+}
+
+
+
+
 
 // Return the average of x and y.
 // Here, the average of x and y is the *mean* of x and y. In other words, it's

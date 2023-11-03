@@ -8,29 +8,57 @@ function greaterThanTen(numbers) {
     if (numbers[i] > 10) {
       bigNums.push(numbers[i])
     }
-
   }
   return bigNums
 }
+
+
+
 
 // Given an array of strings, return all words that start with 'b' or 'B'.
 // Ex.:
 //   bWords(['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear']);
 //   => ['banana', 'Bonobo]
-function bWords(words) {}
+
+function bWords(words) {
+  const strings = [];
+  for (let string of strings) {
+
+  }
+}
+
 
 // Add all the elements from additionalItems to the end of originalArray.
 // Return the originalArray..
 // Ex.:
 //  extend([1, 2, 3], [4, 5, 6]);
 //  => [1, 2, 3, 4, 5, 6]
-function extend(originalArray, additionalItems) {}
+function extend(originalArray, additionalItems) {
+  originalArray.push(additionalItems);
+  return originalArray;
+}
+
+
 
 // Return an array of all items with the given length.
 // Ex.:
 //   itemsWithLength(['a', 'bbb', 'cccc', 'dddddd', 'eee'], 3);
 //   => ['bbb', 'eee']
 function itemsWithLength(items, length) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Return an array with every other element from the input array (start with index 0).
 // Ex.:
