@@ -9,7 +9,7 @@ function greaterThanTen(numbers) {
       bigNums.push(numbers[i])
     }
   }
-  return bigNums
+  return bigNums;
 }
 
 // Given an array of strings, return all words that start with 'b' or 'B'.
@@ -23,7 +23,7 @@ function bWords(words) {
       bWord.push(words[i]);
     }
   }
-  return bWord ;
+  return bWord;
 }
 
 // Add all the elements from additionalItems to the end of originalArray.
