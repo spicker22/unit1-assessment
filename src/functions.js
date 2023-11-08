@@ -24,7 +24,7 @@ function average(x, y) {
 //   approximatelyEqual(10.001, 10);
 //   => true
 function approximatelyEqual(x, y) {
-    (Math.abs(x - y) < .001 ) 
+   return (Math.abs(x - y) < .001 ) 
 }
 
 // Given a first name and last name, return a full name in the format "FIRST LAST"
@@ -105,10 +105,9 @@ function leetspeak(string) {
        newArray[i] = '7';
       }
   }
-    let string = newArray.toString();
-    let string2 = string.split(",").join("");
+    let string = newArray.join("");
   
-  return string2;
+  return string;
 }
 
 export {

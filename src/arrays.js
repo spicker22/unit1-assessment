@@ -32,7 +32,7 @@ function bWords(words) {
 //  extend([1, 2, 3], [4, 5, 6]);
 //  => [1, 2, 3, 4, 5, 6]
 function extend(originalArray, additionalItems) {
-  finalArray = [];
+  const finalArray = [];
   for (let i = 0; i < originalArray.length; i++) {
     finalArray.push(originalArray[i]);
   }
@@ -47,7 +47,7 @@ function extend(originalArray, additionalItems) {
 //   itemsWithLength(['a', 'bbb', 'cccc', 'dddddd', 'eee'], 3);
 //   => ['bbb', 'eee']
 function itemsWithLength(items, length) {
-  finalArray = [];
+  let finalArray = [];
   for (let i = 0; i < items.length; i++) {
     if (items[i].length === length ) {
       finalArray.push(items[i])
@@ -61,7 +61,7 @@ function itemsWithLength(items, length) {
 //   everyOtherItem(['a', 'b', 'c', 'd', 'e']);
 //   => ['a', 'c', 'e']
 function everyOtherItem(items) {
-  finalArray = [];
+  const finalArray = [];
   for (let i = 0; i < items.length; i += 2) {
     finalArray.push(items[i])
   }
@@ -100,7 +100,7 @@ console.log(findWordsStartingWith(words, letter));
 //   smallestNItems([1, 30, 4, 21, 100000], 3);
 //   => [21, 4, 1]
 function smallestNItems(items, n) {
-  smallestValuesArray = [];
+  const smallestValuesArray = [];
   for (let i = 0; i < items.length; i++) {
       smallestValuesArray.push(items[i]);
   }
